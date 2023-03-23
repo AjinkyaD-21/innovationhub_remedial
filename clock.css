@@ -1,0 +1,57 @@
+#clockmain{
+        
+        margin:auto;
+        align-items: center;
+        height: 30vw;
+        width: 30vw;
+        position: absolute;
+        top: 22%;
+        left: 35%;
+        background: url(clock\ face.png) no-repeat;
+      
+        background-size: 100%;
+}
+#hour, #min, #second, #dot{
+    position: absolute;
+    background: black;
+    transform-origin: bottom;
+}
+#hour{
+    width: 2.3%;
+    height:26%; 
+    border-radius:23px ;
+    top:23.4%;
+    left:47.8%;
+    background: #FF5733;
+    
+     
+}
+#min{
+    width: 1.3%;
+    height:37%; 
+    border-radius:23px ;
+    top:12.9%;
+    left:49.8%;
+    background: #FF5733; 
+    
+}
+#second{
+    width: 0.55%;
+    height:40%; 
+    
+    top:9.8%;
+    left:49.5%;
+    background: #e43f19;   
+     
+}
+#dot{
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    top: 47.5%;
+    left:46.6%;
+    z-index: 10;
+  }
+
